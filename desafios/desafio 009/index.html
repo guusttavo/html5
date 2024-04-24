@@ -7,37 +7,45 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <style>
-       #container{
-            background-image: url(imagens/target001.png);
-            background-size: 100% 100%;
-            
-            position: relative;
-            height: 96vh;
-            background-color: purple;
-            padding: 10px;
-        }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: rgb(78, 72, 72);
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        height: 100vh;
+    }
 
-        #conteudo{
-            background-image: url(imagens/thumb-hardware.png);
-            background-size: 100% 100%;
-            position: absolute;
-            height: 200px;
-            width: 400px;
-            background-color: yellow;
-            
-            left: 50%;
-            top: 50%;
+   h1{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2.5em;
+   }
+    div > img{
+        position: absolute;
+        margin: 10px;
+        height: 300;
+        width: 200;
 
-            transform: translate(-50%, -50%);
-        }
-   
-    
+     }
+
+     div.segunda{
+        position: absolute;
+        left: 50%;
+        transform: translate();
+     }
+  
 </style>
 <body>
-    <section id="container">
-        <article id="conteudo">
-
-        </article>
+    <section>
+        <h1>Vídeos legais para assistir</h1>
+        <div ><img src="imagens/thumb-hardware.png" alt="Curso de thumb-hardware"></div>
+        <div class="sengunda"><img src="imagens/thumb-html.png" alt=" Curso de html"></div>
+        
     </section>
+ 
 </body>
 </html>
