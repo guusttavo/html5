@@ -6,17 +6,47 @@
     <title>Desafio de Imagem</title>
     <link rel="shortcut icon" href="/desafios/desafio 011/imagens/favicon.ico" type="image/x-icon">
     <style>
-        
-        #espaco{
-            background-image: url(imagens/espaco.jpg);
+
+        *{
+            margin: 0px;
+            padding: 0px;
         }
+        #container{
+            height: 100vh;
+            background-image: url(imagens/espaco.jpg);
+            background-position: center ;
+            background-size: cover;
+            background-attachment: scroll;
+            margin: auto;
+            position: relative;
+            
+            
+        }
+
+        
+        #conteudo{
+            background-image: url(imagens/astronauta.png);
+            background-size:contain;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: absolute;
+            height: 500px;
+            width: 500px;
+            
+            
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+		}
+
         
     </style>
 </head>
 <body>
-    <section id="espaco">
-        <article id="astro">
-
+    <section id="container">
+        <article id="conteudo">
+            
         </article>
     </section>
 </body>
