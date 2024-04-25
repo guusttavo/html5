@@ -7,15 +7,39 @@
 </head>
 <style>
     body{
-        background-color: rgb(107, 128, 146);
+        background-image: linear-gradient(to left, #0072a4, #FFD735);
+    }
+
+    h1{
+        color: black;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    div.video{
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    #curso{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .voltar{
+    display: flex;
+    justify-content: center;
     }
 </style>
 <body>
    <h1>Curso de Python</h1> 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/S9uPNppGsGo?si=QwjgGHb13LrgR2sQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0" rel="external" target="_blank">
+   <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/S9uPNppGsGo?si=QwjgGHb13LrgR2sQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+   <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0" rel="external" target="_blank" id="curso">
        <p>Veja o Curso Completo</p>
    </a>
-   <a href="index.html"><img src="imagens/voltar.png" alt="botão de voltar"></a>
+   <div class="voltar"><a href="index.html"><img src="imagens/voltar.png" alt="botão de voltar"></a></div>
 </body>
 </html>

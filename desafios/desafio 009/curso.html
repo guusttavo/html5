@@ -4,18 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de HTML</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image:linear-gradient(to left, #ff6c00,#01e2fd ) ;
+        }
+    
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 2.5em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+        .video{
+            display: flex;
+            justify-content: center;
+        }
+    
+        #curso{
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+    
+        .voltar{
+        display: flex;
+        justify-content: center;
+        }
+    </style>
 </head>
-<style>
-    body{
-        background-color: rgb(107, 128, 146);
-    }
-</style>
+
 <body>
     <h1>Cuso de HTML</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=PIkBGlrw7el5ahUJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" rel="exernal" target="_blank">
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=PIkBGlrw7el5ahUJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" rel="exernal" target="_blank" id="curso">
         <p>Veja o Curso Completo</p>
     </a>
-    <a href="index.html"><img src="imagens/voltar.png" alt="botão de voltar"></a>
+    <div class="voltar"><a href="index.html"><img src="imagens/voltar.png" alt="botão de voltar"></a></div>
 </body>
 </html>

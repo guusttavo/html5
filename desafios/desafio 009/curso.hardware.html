@@ -8,15 +8,40 @@
 </head>
 <style>
     body{
-        background-color: rgb(107, 128, 146);
+        background-image: linear-gradient(to left, #395a43, #57e278);
     }
+
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    div.video{
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    #curso{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .voltar{
+    display: flex;
+    justify-content: center;
+    }
+
 </style>
 <body>
     <h1>Curso de Hardware</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zpK_MqEMgu4?si=r8vDPUKkmgXtr9zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <a href="https://www.youtube.com/watch?v=iT6E92Kt38o&list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW" rel="exernal" target="_blank">
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/zpK_MqEMgu4?si=r8vDPUKkmgXtr9zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <a href="https://www.youtube.com/watch?v=iT6E92Kt38o&list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW" rel="exernal" target="_blank" id="curso">
         <p>Veja o Curso Completo</p>
     </a>
-    <a href="index.html"><img src="imagens/voltar.png" alt="botão de voltar"></a>
+    <div class="voltar"><a href="index.html" class="voltar"><img src="imagens/voltar.png" alt="botão de voltar"></a></div>
 </body>
 </html>

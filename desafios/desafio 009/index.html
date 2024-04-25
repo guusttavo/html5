@@ -5,47 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Vídeos</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<style>
-    *{
-        margin: 0px;
+    <style>
+         
+        body{
+            background-color:rgb(131, 131, 131);
+            
+        }
+    
+      
+    
+       .container{
         padding: 0px;
-    }
-    body{
-        background-color: rgb(78, 72, 72);
+        margin: 0px;
         display: flex;
-        align-items: top;
+        flex-direction: row;
         justify-content: center;
-        height: 100vh;
-    }
+       }
 
-   h1{
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5em;
-   }
-    div > img{
-        position: absolute;
-        margin: 10px;
-        height: 300;
-        width: 200;
+       .container2{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       }
+       
+       .imagem{
+        padding: 0px;
+        margin-top: -4px;
+        }
 
-     }
+        h1{
+            text-align: center;
+            font-size: 2.5em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+       
+    </style>
+</head>
 
-     div.segunda{
-        position: absolute;
-        left: 50%;
-        transform: translate();
-     }
-  
-</style>
 <body>
-    <section>
-        <h1>Vídeos legais para assistir</h1>
-        <div ><img src="imagens/thumb-hardware.png" alt="Curso de thumb-hardware"></div>
-        <div class="sengunda"><img src="imagens/thumb-html.png" alt=" Curso de html"></div>
-        
-    </section>
- 
+    <h1>Vídeos legais para assistir</h1>
+    <div class="container">
+        <div class="imagem">
+             <a href="curso.hardware.html" target="_blank"><img src="imagens/thumb-hardware.png" alt="thumb-hardware">   </a>
+        </div>
+        <div class="imagem">
+             <a href="curso.html" target="_blank"><img src="imagens/thumb-html.png" alt="thumb-html"></a>   
+        </div>
+    </div>
+     <div class="container2">
+            <div class="imagem">
+                <a href="curso.js.html" target="_blank"><img src="imagens/thumb-js.png" alt="thumb-js"></a>
+            </div>
+            <div class="imagem">
+                <a href="curso.py.html" target="_blank"><img src="imagens/thumb-python.png" alt="thumb-python"></a>
+            </div>
+     </div>
+    
 </body>
 </html>
