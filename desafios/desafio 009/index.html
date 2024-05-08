@@ -11,8 +11,11 @@
             background-color:rgb(131, 131, 131);
             
         }
-    
-      
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
     
        .container{
         padding: 0px;
@@ -40,6 +43,32 @@
             font-size: 2.5em;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+
+        .rodape{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        
+
+        footer > p > a{
+            color: whitesmoke;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition-duration: 0.5s;
+        }
+
+        a:hover{
+            background-color: var(--cor3);
+            color: var(--cor5);
+        }
        
     </style>
 </head>
@@ -62,6 +91,10 @@
                 <a href="curso.py.html" target="_blank"><img src="imagens/thumb-python.png" alt="thumb-python"></a>
             </div>
      </div>
-    
+    <div class="rodape">
+        <footer>
+            <p>Criado por <a href="https://github.com/guusttavo" target="_blank">Gustavo Ribeiro da Silva</a></p>
+        </footer>
+    </div>
 </body>
 </html>
