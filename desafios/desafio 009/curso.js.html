@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Java Script</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagens/favicon.js.ico" type="image/x-icon">
 
     <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
         body{
             background-image:linear-gradient(to left, #fedb04,#a88746);
         }
@@ -15,6 +21,8 @@
             text-align: center;
             font-size: 2.5em;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 10px;
+            padding: 15px;
         }
     
         div.video{
@@ -33,6 +41,30 @@
         display: flex;
         justify-content: center;
         }
+
+        .rodape{
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        }
+
+        footer > p > a{
+        text-decoration: none;
+        color: white;
+        }   
+
+        #veja{
+        margin: 10px;
+        padding: 15px;
+        }
+
+        
+
     </style>
 </head>
 
@@ -41,8 +73,15 @@
    <h1>Curso de JavaScript</h1>
    <div class="video"><iframe width="800" height="500" src="https://www.youtube.com/embed/BXqUH86F-kA?si=e9ijhw7L7V0-Q80H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
    <a href="https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm" target="_blank" id="curso">
-       <p>Veja o Curso Completo</p> 
+       <p id="veja">Veja o Curso Completo</p> 
    </a>
    <div class="voltar"><a href="index.html"><img src="imagens/voltar.png" alt="botão de voltar"></a></div>
+
+   <div class="rodape">
+    <footer>
+        <p>Criado por <a href="https://github.com/guusttavo" target="_blank">Gustavo Ribeiro da Silva</a></p>
+    </footer>
+    </div>
+
 </body>
 </html>
