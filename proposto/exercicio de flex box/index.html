@@ -5,17 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio de video</title>
     <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
         *{
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
         }
+
         body{
-            background-color: brown;
+            background: url(imagens/fundo-do-desafio.jpg);
+            background-size: cover;
         }
 
+        h1{
+            font-family: "Playwrite AU SA", cursive;
+            text-align: center;
+            padding-top: 60px;
+        }
+   
+
         main{
-            background-color:lightgreen;
+            background: url(imagens/fundo-do-desafio.jpg);
+            background-size: cover;
+            background-color:rgb(255, 255, 255);
             height: 100vh;
             width: 100vw;
 
@@ -26,10 +40,10 @@
         }
 
         div.conteiner{
-            height: 500px;
-            width: 500px;
-            background-color: antiquewhite;
-            border-radius: 25px;
+            height: 226px;
+            width: 400px;
+            background-color: rgb(129, 119, 106);
+            
 
             display: flex;
             flex-flow: row wrap;
@@ -37,71 +51,26 @@
             align-items: center;
         }
 
-        div.item1{
-            height: 113px;
-            width: 200px;
-            background: url(imagens/thumb-hardware.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: white;
-            border-radius: 15px;
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+       div.item{
+        height: 113px;
+        width: 200px;
+        cursor: grab;
+       }
 
-        div.item1 > a{
-            text-decoration: none;
-        }
 
-        div.item2{
-            height: 113px;
-            width: 200px;
-            background: url(imagens/thumb-html.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: white;
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        div.item3{
-            height: 113px;
-            width: 200px;
-            background: url(imagens/thumb-js.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: white;
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        div.item4{
-            height: 113px;
-            width: 200px;
-            background: url(imagens/thumb-python.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: white;
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+       
     </style>
 </head>
 <body>
+    <header>
+        <h1>Meus Videos</h1>
+    </header>
     <main>
         <div class="conteiner">
-            <div class="item1"><a href="#">clique</a></div>
-            <div class="item2"></div>
-            <div class="item3"></div>
-            <div class="item4"></div>
+            <div class="item"><a href="#" ><img src="imagens/thumb-hardware.png" alt="thumb-hardware"></a></div>
+            <div class="item"><a href="#"><img src="imagens/thumb-html.png" alt="thumb-html"></a></div>
+            <div class="item"><a href="#"><img src="imagens/thumb-js.png" alt="thumb-js"></a></div>
+            <div class="item"><a href="#"><img src="imagens/thumb-python.png" alt="thumb-python"></a></div>
         </div>
     </main>
 </body>
