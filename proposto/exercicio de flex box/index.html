@@ -14,29 +14,29 @@
             box-sizing: border-box;
         }
 
-        body{
-            background: url(imagens/fundo-do-desafio.jpg);
-            background-size: cover;
+        html{
+            overflow-x: hidden;
         }
 
         h1{
             font-family: "Playwrite AU SA", cursive;
             text-align: center;
-            padding-top: 60px;
+            padding-top: 30px;
+            font-size: 2.5em;
+
+            background-image: linear-gradient(  to left,  #ee5482, #C5446B);
         }
    
 
         main{
-            background: url(imagens/fundo-do-desafio.jpg);
-            background-size: cover;
-            background-color:rgb(255, 255, 255);
-            height: 100vh;
+            height: 99vh;
             width: 100vw;
-
             display: flex;
             flex-flow:row nowrap ;
             justify-content: center;
             align-items: center;
+
+            background-image: linear-gradient(  to left,  #ee5482, #C5446B);
         }
 
         div.conteiner{
@@ -51,12 +51,24 @@
             align-items: center;
         }
 
-       div.item{
-        height: 113px;
-        width: 200px;
-        cursor: grab;
-       }
+        footer{
+            font-size: 1em;
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
 
+        footer > a{
+            text-decoration: none;
+            color: white;
+        }
+
+        footer > a:hover{
+            background-color: rgba(211, 211, 211, 0.466);
+            border-radius: 5px;
+        }
 
        
     </style>
@@ -66,12 +78,15 @@
         <h1>Meus Videos</h1>
     </header>
     <main>
-        <div class="conteiner">
-            <div class="item"><a href="#" ><img src="imagens/thumb-hardware.png" alt="thumb-hardware"></a></div>
-            <div class="item"><a href="#"><img src="imagens/thumb-html.png" alt="thumb-html"></a></div>
-            <div class="item"><a href="#"><img src="imagens/thumb-js.png" alt="thumb-js"></a></div>
-            <div class="item"><a href="#"><img src="imagens/thumb-python.png" alt="thumb-python"></a></div>
+            <div class="conteiner">
+            <div class="item"><a href="curso.hardware.html" target="_blank" ><img src="imagens/thumb-hardware.png" alt="thumb-hardware"></a></div>
+            <div class="item"><a href="curso.html" target="_blank"><img src="imagens/thumb-html.png" alt="thumb-html"></a></div>
+            <div class="item"><a href="curso.js.html" target="_blank"><img src="imagens/thumb-js.png" alt="thumb-js"></a></div>
+            <div class="item"><a href="curso.py.html" target="_blank"><img src="imagens/thumb-python.png" alt="thumb-python"></a></div>
         </div>
     </main>
+    <footer>
+        Criado por <a href="https://github.com/guusttavo" target="_blank">Gustavo Ribeiro da Silva</a>
+    </footer>
 </body>
 </html>

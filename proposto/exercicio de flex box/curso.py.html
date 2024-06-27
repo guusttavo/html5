@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de python</title>
+    <link rel="shortcut icon" href="./imagens/favicon.py.ico" type="image/x-icon">
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-image: linear-gradient(to left, #0072a4, #FFD735);
+    }
+
+    h1{
+        color: black;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    div.video{
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    iframe{
+        border: 2px solid black;
+    }
+
+    #curso{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .voltar{
+    display: flex;
+    justify-content: center;
+   
+    }
+
+    .rodape{
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    footer > p > a{
+        text-decoration: none;
+        color: white;
+    }
+
+    #veja{
+        margin: 10px;
+        padding: 15px;
+    }
+</style>
+<body>
+   <h1>Curso de Python</h1> 
+   <div class="video"><iframe width="800" height="500" src="https://www.youtube.com/embed/S9uPNppGsGo?si=QwjgGHb13LrgR2sQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+   <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0" rel="external" target="_blank" id="curso">
+       <p id="veja">Veja o Curso Completo</p>
+   </a>
+   <div class="voltar"><a href="index.html"><img src="imagens/voltar.png" alt="botão de voltar"></a></div>
+   
+   <div class="rodape">
+    <footer>
+        <p>Criado por <a href="https://github.com/guusttavo" target="_blank">Gustavo Ribeiro da Silva</a></p>
+    </footer>
+    </div>
+</body>
+</html>
